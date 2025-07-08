@@ -1,0 +1,7 @@
+name = "simple-chat"
+main = "worker.js"
+compatibility_date = "2025-07-08"
+
+[[kv_namespaces]]
+binding = "KV_CHAT"
+id = "<YOUR_KV_NAMESPACE_ID>"

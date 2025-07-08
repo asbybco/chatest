@@ -103,7 +103,7 @@
     });
 
     async function initWebSocket() {
-      socket = new WebSocket('wss://<YOUR_WORKER>.workers.dev');
+      socket = new WebSocket('wss://simple-chat.asbybco.workers.dev');
 
       socket.onmessage = async (event) => {
         const data = JSON.parse(event.data);

@@ -59,3 +59,5 @@ async function handleRequest(request, env) {
   const durableObject = env.CHAT_ROOM.get(id);
   return await durableObject.fetch(request);
 }
+
+export { ChatRoom };

@@ -5,7 +5,7 @@ account_id = "d34805ac74c21605bf55901c503f385f"
 
 [[kv_namespaces]]
 binding = "KV_CHAT"
-id = "d5a91d4b34a14d3dba9933adc9f0768e"
+id = "<d5a91d4b34a14d3dba9933adc9f0768e>"
 
 [[durable_objects.bindings]]
 name = "CHAT_ROOM"
@@ -13,4 +13,4 @@ class_name = "ChatRoom"
 
 [[migrations]]
 tag = "v1"
-new_classes = ["ChatRoom"]
+new_sqlite_classes = ["ChatRoom"]
